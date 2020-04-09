@@ -22,5 +22,6 @@ build:
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: hugo server
+  instant_preview_command: hugo server --HytorcTheme --buildDrafts --bind "0.0.0.0"
+    --baseURL 192.168.1.90:1313
 version: 0.63.2
