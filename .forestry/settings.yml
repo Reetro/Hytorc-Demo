@@ -5,11 +5,19 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+<<<<<<< HEAD
   path: HytorcRockyMoutain/content
   label: Pages
   create: all
   match: "*"
 upload_dir: HytorcRockyMoutain//static/uploads
+=======
+  path: content
+  label: Pages
+  create: all
+  match: "*"
+upload_dir: static/uploads
+>>>>>>> 08d0b54b97a1c14ada46b4b30707388680b65fa1
 public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
