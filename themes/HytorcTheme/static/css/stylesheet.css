@@ -15,13 +15,13 @@
 }
 
 .btn-outline-custom {
-    border-color: #314C64 !important;
-    color: #314C64 !important;
+  border-color: #314C64 !important;
+  color: #314C64 !important;
 }
 
 .btn-outline-danger:hover{
-    background-color: #314C64 !important;
-    border-color: #314C64 !important;
+  background-color: #314C64 !important;
+  border-color: #314C64 !important;
 }
 
 .btn-outline-danger {
@@ -31,6 +31,20 @@
 .wrench {
   background-image: url(/images/placeholderImage.jpg);
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
+  background-position: center center;
+}
+
+.river {
+  background-image: url(/images/freshwater-mountain-creek.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.mountain {
+  background-image: url(/images/Magic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center center;
 }
