@@ -31,6 +31,10 @@ footer {
   margin-left: auto;
 }
 
+.side-pad {
+  padding-right: 1rem;
+}
+
 .top-pad {
   margin-top: 1rem;
 }
