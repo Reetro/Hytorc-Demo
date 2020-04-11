@@ -27,3 +27,10 @@
 .btn-outline-danger {
   border-color: #314C64 !important;
 }
+
+.wrench {
+  background-image: url(/images/placeholderImage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center center;
+}
