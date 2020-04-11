@@ -67,3 +67,24 @@ footer {
   background-size: cover;
   background-position: center center;
 }
+
+.training {
+  background-image: url(/images/hands-on-blueprints.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.team {
+  background-image: url(/images/office-team-business-meeting.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.upkeep {
+  background-image: url(/images/circular-saw-cuts-beam.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
