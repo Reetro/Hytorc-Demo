@@ -1,8 +1,11 @@
-body {
-  margin: 0;
-  text-align: center;
-  font-family: 'Merriweather', serif;
-  background-color: #E2EFF6;
+header {
+  position: fixed;
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+
 }
 
 .h1-sized {
