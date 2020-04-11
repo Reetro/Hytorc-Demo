@@ -1,3 +1,7 @@
-body {
-  background-color: blue;
+.rj {
+  margin-left: auto;
+}
+
+.half-screen {
+  width: 50%;
 }
