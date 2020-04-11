@@ -13,3 +13,17 @@
 .center-content {
   margin: auto;
 }
+
+.btn-outline-custom {
+    border-color: #314C64 !important;
+    color: #314C64 !important;
+}
+
+.btn-outline-danger:hover{
+    background-color: #314C64 !important;
+    border-color: #314C64 !important;
+}
+
+.btn-outline-danger {
+  border-color: #314C64 !important;
+}
