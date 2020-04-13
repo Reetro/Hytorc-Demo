@@ -6,7 +6,6 @@ function footerAlign() {
   $('footer').css('height', footerHeight);
 }
 
-
 $(document).ready(function(){
   footerAlign();
 });
