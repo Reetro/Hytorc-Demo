@@ -1,16 +1,16 @@
-var bumpIt = function() {
-      $('body').css('margin-bottom', $('.footer').height());
-    },
-    didResize = false;
+function footerAlign() {
+  $('footer').css('display', 'block');
+  $('footer').css('height', 'auto');
+  var footerHeight = $('footer').outerHeight();
+  $('body').css('padding-bottom', footerHeight);
+  $('footer').css('height', footerHeight);
+}
 
-bumpIt();
 
-$(window).resize(function() {
-  didResize = true;
+$(document).ready(function(){
+  footerAlign();
 });
-setInterval(function() {
-  if(didResize) {
-    didResize = false;
-    bumpIt();
-  }
-}, 250);
+
+$( window ).resize(function() {
+  footerAlign();
+});

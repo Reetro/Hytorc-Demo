@@ -11,10 +11,12 @@ html {
 }
 
 footer {
+  display:none;
   position: absolute;
+  left: 0;
   bottom: 0;
+  height: auto;
   width: 100%;
-  clear: both;
 }
 
 .h1-sized {
