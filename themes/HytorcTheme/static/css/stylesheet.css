@@ -8,10 +8,12 @@ footer {
 }
 
 header {
+  display:none;
+  position: absolute;
+  left: 0;
   top: 0;
-  position: fixed;
+  height: auto;
   width: 100%;
-  z-index: 1;
 }
 
 html {
