@@ -109,3 +109,7 @@ footer {
   background-size: cover;
   background-position: center center;
 }
+
+.nav-text {
+  font-size: 14px;
+}
