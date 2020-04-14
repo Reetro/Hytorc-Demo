@@ -1,15 +1,3 @@
-header {
-  top: 0;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 footer {
   display:none;
   position: absolute;
@@ -19,71 +7,45 @@ footer {
   width: 100%;
 }
 
-.h1-sized {
-  font-weight: lighter;
-  font-size: 2.5rem;
+header {
+  display:none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: auto;
+  width: 100%;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.below-header-spacing {
+  margin-bottom: 5.5rem;
+}
+
+/*overriden from Bootsrap*/
+.btn-outline-danger {
+  border-color: #314C64 !important;
+}
+
+/*overriden from Bootsrap*/
+.btn-outline-danger:hover{
+  background-color: #314C64 !important;
+  border-color: #314C64 !important;
 }
 
 .header-color {
   background-color: #213E4D;
 }
 
-.header-space {
-  margin-bottom: 5.5rem;
-}
-
-.lj {
-  margin-right: auto;
-}
-
-.rj {
-  margin-left: auto;
-}
-
-.side-pad {
-  padding-right: 1rem;
-}
-
-.top-pad {
-  margin-top: 1rem;
-}
-
-.oh {
+.home-page-brand {
+  height: 1rem;
   overflow: hidden;
 }
 
-.center-content {
-  margin: auto;
-}
-
-.btn-outline-custom {
-  border-color: #314C64 !important;
-  color: #314C64 !important;
-}
-
-.btn-outline-danger:hover{
-  background-color: #314C64 !important;
-  border-color: #314C64 !important;
-}
-
-.btn-outline-danger {
-  border-color: #314C64 !important;
-}
-
-.wrench {
-  background-image: url(/images/placeholderImage.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.river {
-  background-image: url(/images/freshwater-mountain-creek.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
+/*test background image*/
 .mountain {
   background-image: url(/images/Magic.jpg);
   background-repeat: no-repeat;
@@ -91,13 +53,27 @@ footer {
   background-position: center center;
 }
 
-.training {
-  background-image: url(/images/hands-on-blueprints.jpg);
+/*overriden from Bootsrap*/
+
+/*Text size for nav bar links in the header*/
+.nav-text {
+  font-size: .85rem;
+}
+
+/*adds padding to the right for the nav bar*/
+.right-padding {
+  padding-right: 1rem;
+}
+
+/*test background image*/
+.river {
+  background-image: url(/images/freshwater-mountain-creek.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
+/*test background image*/
 .team {
   background-image: url(/images/office-team-business-meeting.jpg);
   background-repeat: no-repeat;
@@ -105,6 +81,15 @@ footer {
   background-position: center center;
 }
 
+/*test background image*/
+.training {
+  background-image: url(/images/hands-on-blueprints.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/*test background image*/
 .upkeep {
   background-image: url(/images/circular-saw-cuts-beam.jpg);
   background-repeat: no-repeat;
@@ -112,11 +97,10 @@ footer {
   background-position: center center;
 }
 
-.logo {
-  height: 1rem;
-  overflow: hidden;
-}
-
-.nav-text {
-  font-size: 0.75rem;
+/*test background image*/
+.wrench {
+  background-image: url(/images/placeholderImage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
