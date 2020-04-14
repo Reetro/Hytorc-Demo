@@ -21,6 +21,11 @@ html {
   min-height: 100%;
 }
 
+.logo {
+  height: 1rem;
+  overflow: hidden;
+}
+
 .below-header-spacing {
   margin-bottom: 5.5rem;
 }
