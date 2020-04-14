@@ -8,12 +8,10 @@ footer {
 }
 
 header {
-  display:none;
-  position: absolute;
-  left: 0;
+  position: fixed;
   top: 0;
-  height: auto;
   width: 100%;
+  z-index: 1;
 }
 
 html {
@@ -54,10 +52,14 @@ html {
 }
 
 /*overriden from Bootsrap*/
-
 /*Text size for nav bar links in the header*/
 .nav-text {
   font-size: .85rem;
+  color: #78B3BC !important;
+}
+
+.nav-text:hover {
+  color: white !important;
 }
 
 /*adds padding to the right for the nav bar*/
