@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-draft: true
+layout: "{{ replace .Name "-" " " | title }}"
+slug: "{{ replace .Name "-" " " | title }}"
+url: "#"
 ---
-
