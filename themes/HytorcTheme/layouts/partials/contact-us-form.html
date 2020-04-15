@@ -1,10 +1,32 @@
-<form>
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+<!---TODO Add reCAPTCHA when site goes live--->
+<form method="post" action="contact.php">
+  <label for="message-area">Representative To Contact</label>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">TestEmail1@Email.com</a>
+        <a class="dropdown-item" href="#">TestEmail2@Email.com</a>
+        <a class="dropdown-item" href="#">TestEmail3@Email.com</a>
+        <a class="dropdown-item" href="#">TestEmail4@Email.com</a>
+        <a class="dropdown-item" href="#">TestEmail5@Email.com</a>
+        <a class="dropdown-item" href="#">TestEmail6@Email.com</a>
+        <a class="dropdown-item" href="#">TestEmail7@Email.com</a>
+      </div>
+    </div>
+    <input type="text" id="email-dropdown" class="form-control" aria-label="Text input with dropdown button">
   </div>
   <div class="form-group">
-    <label for="exampleFormControlTextarea1">Example textarea</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <label for="message-area">Message</label>
+    <textarea class="form-control" id="message-area" rows="3"></textarea>
   </div>
+  <input type="submit" class="btn btn-secondary"></input>
 </form>
+
+<script>
+  /* Gets the drop box value and updates the text field */
+  $(".dropdown-menu a ").click(function() {
+    let ChosenEmail = $(this).text();
+		document.getElementById("email-dropdown").value = ChosenEmail;
+  });
+</script>
