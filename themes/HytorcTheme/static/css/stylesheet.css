@@ -39,12 +39,17 @@ html {
   border-color: #314C64 !important;
 }
 
-/* Contact us page styles start */ 
+/*overriden from Bootsrap*/
+.btn-secondary {
+  background-color: #314C64 !important;
+}
+
+/* Contact Us Page container */
 .col-container {
   display: flex;
   width: 100%;
 }
-
+/* Contact Us Page collum */
 .col {
   flex: 1;
   padding: 1rem;
@@ -64,8 +69,6 @@ html {
     padding-right:15px;
   }
 }
-
-/* Contact us page styles end */
 
 .header-color {
   background-color: #213E4D;
