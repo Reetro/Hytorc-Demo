@@ -42,6 +42,13 @@ html {
 /*overriden from Bootsrap*/
 .btn-secondary {
   background-color: #314C64 !important;
+  color: white !important;
+}
+
+/*overriden from Bootsrap*/
+.btn-secondary:hover {
+  background-color: #595959 !important;
+  border-color: #595959 !important;
 }
 
 /* Contact Us Page container */
@@ -49,6 +56,7 @@ html {
   display: flex;
   width: 100%;
 }
+
 /* Contact Us Page collum */
 .col {
   flex: 1;
