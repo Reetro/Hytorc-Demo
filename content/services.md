@@ -1,6 +1,6 @@
 ---
 title: "Services"
-layout: "Services"
-slug: "Services"
+layout: "services"
+slug: "services"
 url: "/services"
 ---
