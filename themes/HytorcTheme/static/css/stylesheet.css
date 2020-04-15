@@ -39,6 +39,34 @@ html {
   border-color: #314C64 !important;
 }
 
+/* Contact us page styles start */ 
+.col-container {
+  display: flex;
+  width: 100%;
+}
+
+.col {
+  flex: 1;
+  padding: 1rem;
+}
+
+/* If the browser window is smaller than 600px, make the columns stack on top of each other */
+@media only screen and (max-width: 600px) {
+  .col-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    padding-left:15px;
+    padding-right:15px;
+  }
+}
+
+/* Contact us page styles end */
+
 .header-color {
   background-color: #213E4D;
 }
