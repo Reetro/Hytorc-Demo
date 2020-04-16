@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/stylesheet.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="/js/scripts.js"></script>
+<title>Hytorc Site</title>
+
+</head>
+    <body><header class="page-header">
+  <nav class="navbar navbar-expand-md navbar-light bg-dark">
+    <a href="https://reetro.github.io/Hytorc-Demo/" class="navbar-brand"><img class="logo" src="/images/hytorc-logo.png" alt="Hytorc"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="https://reetro.github.io/Hytorc-Demo/">
+            <h4 class="right-padding nav-text">
+              Home
+            </h4>
+          </a>
+        </li>
+        
+        <h4 class="right-padding">
+          <div class="dropdown show">
+            <a class="nav-link dropdown-toggle nav-text" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Products
+            </a>
+            <div class="dropdown-menu  dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="/products">New</a>
+              <a class="dropdown-item" href="#">Rentals</a>
+              <a class="dropdown-item" href="#">Maintenance</a>
+            </div>
+          </div>
+        </h4>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/services">
+            <h4 class="right-padding nav-text">
+              Services
+            </h4>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/contact-us">
+            <h4 class="right-padding nav-text">
+              Contact Us
+            </h4>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<div class="below-header-spacing">
+
+</div>
+<div class="col-container">
+          <div class="col">
+            TODO add contact info here
+          </div>
+          <div class="col">
+<form method="post" action="contact.php">
+  <label for="message-area">Representative To Contact</label>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">testemailhytorc@gmail.com</a>
+        <a class="dropdown-item" href="#">TestEmail2@Email.com</a>
+        <a class="dropdown-item" href="#">TestEmail3@Email.com</a>
+        <a class="dropdown-item" href="#">TestEmail4@Email.com</a>
+        <a class="dropdown-item" href="#">TestEmail5@Email.com</a>
+        <a class="dropdown-item" href="#">TestEmail6@Email.com</a>
+        <a class="dropdown-item" href="#">TestEmail7@Email.com</a>
+      </div>
+    </div>
+    <input type="text" id="email-dropdown" class="form-control" aria-label="Text input with dropdown button">
+  </div>
+  <div class="form-group">
+    <label for="message-area">Message</label>
+    <textarea class="form-control" id="message-area" rows="3"></textarea>
+  </div>
+  <input type="submit" class="btn btn-secondary"></input>
+</form>
+
+<script>
+   
+  $(".dropdown-menu a ").click(function() {
+    let ChosenEmail = $(this).text();
+		document.getElementById("email-dropdown").value = ChosenEmail;
+  });
+</script>
+</div>
+        </div><div>
+  
+  <footer class="page-footer font-small text-white-50 bg-dark pt-4">
+
+    
+    <div class="container">
+
+      
+      <div class="row">
+
+        
+        <div class="col-md-6 mb-4 align-top">
+          
+          <ul class="list-unstyled center-content">
+            <li>
+              <h5 class="d-flex align-items-center justify-content-center text-uppercase font-weight-bold">Location</h5>
+            </li>
+            <li class="map_canvas d-flex align-items-center justify-content-center">
+              <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1EqNrHnEc1McLy0WJ5MEU3YX3v9JFeYUD" width="300rem" height="300rem"></iframe>
+            </li>
+            <li>
+              <a class="d-flex align-items-center justify-content-center text-white-50" href="https://www.google.com/maps/place/9815+N+6180+W,+Highland,+UT+84003/@40.410037,-111.8089524,17z/data=!3m1!4b1!4m5!3m4
+              !1s0x874d80f8364b7665:0xd165e612152af507!8m2!3d40.410037!4d-111.8067637">9815 N 6180 W Highland, UT 84003</a>
+            </li>
+          </ul>
+        </div>
+        
+
+        <div class="col-md-6 mb-4 align-top">
+          
+          <ul class="list-unstyled center-content">
+            <li>
+              <h5 class="d-flex align-items-center justify-content-center d-flex align-items-start text-uppercase font-weight-bold"><a class="text-white-50" href="/contact-us">Contact Us</a></h5>
+            </li>
+            <li>
+              <a class="d-flex align-items-center justify-content-center text-white-50" href="#">Sales</a>
+            </li>
+            <li>
+              <a class="d-flex align-items-center justify-content-center text-white-50" href="#">Maintenance</a>
+            </li>
+            <li>
+              <a class="d-flex align-items-center justify-content-center text-white-50" href="#">Emergency Maintenance</a>
+            </li>
+            <li>
+              <h5 class="d-flex align-items-center justify-content-center text-uppercase font-weight-bold top-pad"><a class="text-white-50" href="#">Sales Representatives</a></h5>
+            </li>
+            <li>
+              <a class="d-flex align-items-center justify-content-center text-white-50" href="#">Territory Manager: Randy Smith</a>
+            </li>
+            <li>
+              <a class="d-flex align-items-center justify-content-center text-white-50" href="#">Utah: Tyler Smith</a>
+            </li>
+            <li>
+              <a class="d-flex align-items-center justify-content-center text-white-50" href="#">Nevada: Robert McManus</a>
+            </li>
+            <li>
+              <a class="d-flex align-items-center justify-content-center text-white-50" href="#">Colorado: Duane Allendore</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      
+
+    </div>
+    
+
+    
+    <div class="footer-copyright text-center py-3">
+      © 2020 Copyright Hytorc Rocky Mountain
+    </div>
+    
+
+  </footer>
+  
+</div>
+</body>
+</html>

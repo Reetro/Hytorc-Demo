@@ -2,4 +2,4 @@ baseURL = "https://reetro.github.io/Hytorc-Demo/"
 languageCode = "en-us"
 title = "Hytorc"
 theme = "HytorcTheme"
-publishDir: docs
+publishDir = "docs"
