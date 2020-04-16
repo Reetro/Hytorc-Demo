@@ -1,4 +1,4 @@
-baseURL = "https://reetro.github.io/Hytorc-Demo/"
+baseURL = "https://reetro.github.io/"
 languageCode = "en-us"
 title = "Hytorc"
 theme = "HytorcTheme"
