@@ -1,0 +1,53 @@
+<header class="page-header">
+  <nav class="navbar navbar-expand-md navbar-light bg-dark">
+    <a href="{{.Site.BaseURL}}" class="navbar-brand"><img class="logo" src="/images/hytorc-logo.png" alt="Hytorc"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="{{.Site.BaseURL}}">
+            <h4 class="right-padding nav-text">
+              Home
+            </h4>
+          </a>
+        </li>
+        <!-- Dropdown menu for products-->
+        <h4 class="right-padding">
+          <div class="dropdown show">
+            <a class="nav-link dropdown-toggle nav-text" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Products
+            </a>
+            <div class="dropdown-menu  dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="/products">New</a>
+              <a class="dropdown-item" href="#">Rentals</a>
+              <a class="dropdown-item" href="#">Maintenance</a>
+            </div>
+          </div>
+        </h4>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/services">
+            <h4 class="right-padding nav-text">
+              Services
+            </h4>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/contact-us">
+            <h4 class="right-padding nav-text">
+              Contact Us
+            </h4>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<div class="below-header-spacing">
+
+</div>
